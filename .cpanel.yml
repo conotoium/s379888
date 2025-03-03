@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
+    - export DEPLOYPATH=/home/s379888/public_html/
     - scp -r public_html s379888@s379888.brambling.cdu.edu.au:$DEPLOYPATH
